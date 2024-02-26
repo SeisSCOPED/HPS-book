@@ -22,6 +22,19 @@ parts:
         - file: chapters/preliminary/python
     - file: chapters/preliminary_seismo/index
 
+- caption: Containers
+  chapters:
+    # - file: chapters/geosmart-seis/index
+      # sections:
+        # - file: chapters/geosmart-seis/swc
+    - file: chapters/containers/intro
+
+- caption: HPC
+  chapters:
+    # - file: chapters/geosmart-seis/index
+      # sections:
+        # - file: chapters/geosmart-seis/swc
+    - file: chapters/HPC/intro
 
 - caption: Cloud Computing
   chapters:
@@ -34,6 +47,16 @@ parts:
     - file: chapters/cloud/AWS_EC2Batch
     - file: chapters/cloud/AWS_lambda
     - file: chapters/cloud/coiled
+
+
+- caption: Ambient Seismic Field
+  chapters:
+    # - file: chapters/geosmart-seis/index
+      # sections:
+        # - file: chapters/geosmart-seis/swc
+    - file: chapters/noise/intro
+    - file: chapters/noise/noisepy
+    - file: chapters/noise/coiled_aws
 
 - caption: ML Seismology (GeoSMART)
   chapters:
