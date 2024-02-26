@@ -23,12 +23,24 @@ parts:
     - file: chapters/preliminary_seismo/index
 
 
-
-- caption: Machine Learning in Seismology
+- caption: Cloud Computing
   chapters:
-    - file: chapters/geosmart-seis/index
-      sections:
-        - file: chapters/geosmart-seis/swc
+    # - file: chapters/geosmart-seis/index
+      # sections:
+        # - file: chapters/geosmart-seis/swc
+    - file: chapters/cloud/index
+    - file: chapters/cloud/AWS_101
+    - file: chapters/cloud/AWS_S3
+    - file: chapters/cloud/AWS_EC2Batch
+    - file: chapters/cloud/AWS_lambda
+    - file: chapters/cloud/coiled
+
+- caption: ML Seismology (GeoSMART)
+  chapters:
+    # - file: chapters/geosmart-seis/index
+      # sections:
+        # - file: chapters/geosmart-seis/swc
+    - file: chapters/geosmart-seis/about
     - file: chapters/geosmart-seis/motivation
     - file: chapters/geosmart-seis/methods
     - file: chapters/geosmart-seis/data
