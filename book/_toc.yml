@@ -1,0 +1,36 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+root: intro
+format: jb-book
+parts:
+- caption: About
+  chapters:
+    - title: Geosmart Website
+      url: https://geo-smart.github.io/index.html
+    - title: Project Pythia Foundations
+      url: https://foundations.projectpythia.org/landing-page.html
+    - title: About Use Case Library
+      file: chapters/about
+
+- caption: Tutorial
+  chapters:
+    - file: chapters/motivation
+    - file: chapters/methods
+    - file: chapters/data
+    - file: chapters/development
+    - file: chapters/training
+    - file: chapters/evaluation
+    - file: chapters/workflow
+    - file: chapters/reproducibility
+    - file: chapters/conclusion
+    - file: chapters/todo
+    - file: chapters/questions
+    - file: chapters/troubleshooting
+
+- caption: Example Notebook
+  chapters:
+    - file: chapters/example
+
+- caption: References
+  chapters:
+    - file: reference/glossary

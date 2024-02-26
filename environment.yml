@@ -1,0 +1,10 @@
+name: geosmart-template
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - sphinxcontrib-bibtex
+  - jupyter-book=0.13
+  - jupytext
+  - plotly
+  - pandas
