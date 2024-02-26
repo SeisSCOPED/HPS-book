@@ -5,31 +5,46 @@ format: jb-book
 parts:
 - caption: About
   chapters:
-    - title: Geosmart Website
-      url: https://geo-smart.github.io/index.html
-    - title: Project Pythia Foundations
-      url: https://foundations.projectpythia.org/landing-page.html
-    - title: About Use Case Library
-      file: chapters/about
+    - title: SCOPED
+      url: https://seisscoped.org
+    - title: Team
+      url: https://seisscoped.org/people
 
-- caption: Tutorial
+- caption: Preliminary Resources
   chapters:
-    - file: chapters/motivation
-    - file: chapters/methods
-    - file: chapters/data
-    - file: chapters/development
-    - file: chapters/training
-    - file: chapters/evaluation
-    - file: chapters/workflow
-    - file: chapters/reproducibility
-    - file: chapters/conclusion
-    - file: chapters/todo
-    - file: chapters/questions
-    - file: chapters/troubleshooting
+    - file: chapters/preliminary/index
+      sections:
+        - file: chapters/preliminary/swc
+        - file: chapters/preliminary/github
+        - file: chapters/preliminary/jupyterhub
+        - file: chapters/preliminary/git
+        # - file: preliminary/earthdata
+        - file: chapters/preliminary/python
+    - file: chapters/preliminary_seismo/index
 
-- caption: Example Notebook
+
+
+- caption: Machine Learning in Seismology
   chapters:
-    - file: chapters/example
+    - file: chapters/geosmart-seis/index
+      sections:
+        - file: chapters/geosmart-seis/swc
+    - file: chapters/geosmart-seis/motivation
+    - file: chapters/geosmart-seis/methods
+    - file: chapters/geosmart-seis/data
+    - file: chapters/geosmart-seis/development
+    - file: chapters/geosmart-seis/training
+    - file: chapters/geosmart-seis/evaluation
+    - file: chapters/geosmart-seis/workflow
+    - file: chapters/geosmart-seis/reproducibility
+    - file: chapters/geosmart-seis/conclusion
+    - file: chapters/geosmart-seis/todo
+    - file: chapters/geosmart-seis/questions
+    - file: chapters/geosmart-seis/troubleshooting
+
+# - caption: Example Notebook
+#   chapters:
+#     - file: chapters/example
 
 - caption: References
   chapters:
