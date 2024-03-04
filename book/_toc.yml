@@ -77,6 +77,14 @@ parts:
     - file: chapters/geosmart-seis/questions
     - file: chapters/geosmart-seis/troubleshooting
 
+
+- caption: SCEC
+  chapters:
+    # - file: chapters/geosmart-seis/index
+      # sections:
+        # - file: chapters/geosmart-seis/swc
+    - file: chapters/SCEC/about
+
 # - caption: Example Notebook
 #   chapters:
 #     - file: chapters/example
