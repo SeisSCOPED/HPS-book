@@ -54,9 +54,17 @@ parts:
     # - file: chapters/geosmart-seis/index
       # sections:
         # - file: chapters/geosmart-seis/swc
-    - file: chapters/noise/intro
     - file: chapters/noise/noisepy
     - file: chapters/noise/coiled_aws
+    # - file: chapters/noise/monitoring
+    # - file: chapters/noise/das
+
+- caption: Quake Catalog Building
+  chapters:
+    # - file: chapters/geosmart-seis/index
+      # sections:
+        # - file: chapters/geosmart-seis/swc
+    - file: chapters/quake_catalog/intro
 
 - caption: ML Seismology (GeoSMART)
   chapters:
@@ -77,6 +85,10 @@ parts:
     - file: chapters/geosmart-seis/questions
     - file: chapters/geosmart-seis/troubleshooting
 
+
+- caption: SPECFEM
+  chapters:
+    - file: chapters/specfem/specfem_intro
 
 - caption: SCEC
   chapters:
