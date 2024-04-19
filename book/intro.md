@@ -19,12 +19,11 @@ This workshop will introduce participants to cloud computing, from concept and b
 | Time | Topics | Instructors |  Link to notebook or slides |
 | --- | --- | ---| --- |
 | 9:00-9:30m |  Welcome  | Marine Denolle and Felix Waldhauser| |
-| 10:00-10:40am | Cloud 101 | Yiyu Ni, Zoe Krauss, Marine Denolle | https://github.com/SeisSCOPED/seis_cloud, [book](./chapters/cloud/AWS_101.md)|
-| 10:50-11:00 | coffee break | | 
-| 11:00-12:00 | Ambient Noise | Yiyu Ni, Kuan-Fu Feng, Marine Denolle | https://github.com/SeisSCOPED/noisepy, [book](./chapters/noise/noisepy.md)|
-| 12:00 - 1:00pm| Lunch Break ||
-| 1:00 - 2:00 pm | Unsupervised Learning | Theresa Sawi | SPECUFEX|
-| 2:00 - 2:10pm | Event Discimination with ML | Akash Kharita | |
-| 3:00 - 3:10 pm  | Coffee Break ||
-| 3:10 - 4:30pm | QuakeCatalog Building |  Kaiwen Wang ||
+| 10:00-11:15am | Cloud 101 | Yiyu Ni, Zoe Krauss, Marine Denolle | https://github.com/SeisSCOPED/seis_cloud, [book](./chapters/cloud/AWS_101.md)|
+| 11:15-12:30 | Ambient Noise | Yiyu Ni, Kuan-Fu Feng, Marine Denolle | https://github.com/SeisSCOPED/noisepy, [book](./chapters/noise/noisepy.md)|
+| 12:30 - 1:30pm| Lunch Break ||
+| 1:30 - 2:30 pm | Unsupervised Learning | Theresa Sawi | SPECUFEX|
+| 2:30 - 3:30 pm | Event Discimination with ML | Akash Kharita | |
+| 3:30 - 3:40 pm  | Coffee Break ||
+| 3:40 - 5:00pm | QuakeCatalog Building |  Kaiwen Wang ||
 
