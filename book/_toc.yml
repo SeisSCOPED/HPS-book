@@ -66,6 +66,7 @@ parts:
         # - file: chapters/geosmart-seis/swc
     - file: chapters/quake_catalog/intro
     - file: chapters/quake_catalog/MLworkflow_quakeflow
+    - file: chapters/quake_catalog/specufex
 
 - caption: ML Seismology (GeoSMART)
   chapters:
