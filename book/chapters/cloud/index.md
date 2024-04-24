@@ -1,4 +1,4 @@
-# Intro
+# Introduction
 
 
 In this section, we will review software best practices, open science, reproducible workflows. We will also review how to use HPC resources and Cloud systems.
@@ -10,11 +10,11 @@ Draft Material
 
 We will discuss on how to work with various environments
 
-## Local environment. 
+## Local environment
 
 To work locally using python and Jupyter notebooks.
 
-⚠️ this content only conerns Linux and MacOS, please reach out to contribute to windows environments.
+⚠️ this content only concerns Linux and MacOS, please reach out to contribute to windows environments.
 
 We recommend using [Visual Studio Code](https://code.visualstudio.com/) for code and notebook editing, running codes and notebooks, editing github repository, interacting with GitHub. It is how we wrote this book!
 
@@ -37,9 +37,9 @@ Individual CPUs can compose a **node**. Multiple **nodes** can compose a **clust
 
 ## Cloud
 
-Cloud computing refers to a system of rather loosely connected nodes. There are many cloud providers, though 3 are on the top list: Amazon Web Services (AWS), Google Cloud Platform (GCP), Microstoft Azure Cloud (Azure). Each of these cloud providers offer a free python Hub access.
+Cloud computing refers to a system of rather loosely connected nodes. There are many cloud providers, though 3 are on the top list: Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure Cloud (Azure). Each of these cloud providers offer a free python Hub access.
 
-Cloud centers are distributed around the world, to enable global fast access to computing resoures. The centers are called `regions`.
+Cloud centers are distributed around the world, to enable global fast access to computing resources. The centers are called `regions`.
 
 Usually, storing data on Clouds is the most expensive of geoscience research. One would typically find the 1) data storage/archive, then 2) choose the cloud provider. For optimal I/O performance, it is recommended to choose the `region` where the data is stored for compute.
 

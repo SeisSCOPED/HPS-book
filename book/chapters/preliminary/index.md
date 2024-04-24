@@ -62,13 +62,12 @@ and how you can install that on your personal machine.
 - [Git](https://swcarpentry.github.io/git-novice/): code version control 
 - [Python](http://swcarpentry.github.io/python-novice-gapminder/): coding fundamentals
 - [Latex](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes): Manuscript editing preferred scripting language
-- [Jypyter Notebooks](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/jupyter-python/get-started-with-jupyter-notebook-for-python/): jupyter notebook introduction
+- [Jupyter Notebooks](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/jupyter-python/get-started-with-jupyter-notebook-for-python/): jupyter notebook introduction
 - [Conda, Mamba, environment](https://astrobiomike.github.io/unix/conda-intro): nice intro from a biologist on the basics of conda, mamba, and creating a computing environment.
 
 
 ## Basic Seismology
-- Please watch this [video](https://www.youtube.com/watch?v=kFwdjfiK4gk) of an introduction to Opbsy.
-- Install Obspy using conda: ```conda install -c conda-forge obspy```
+- Video: [Introduction to ObsPy](https://www.youtube.com/watch?v=kFwdjfiK4gk)
 - [Reading seismograms](https://docs.obspy.org/tutorial/code_snippets/reading_seismograms.html)
 - [Plot waveforms](https://docs.obspy.org/tutorial/code_snippets/waveform_plotting_tutorial.html)
 - [Filter data](https://docs.obspy.org/tutorial/code_snippets/filtering_seismograms.html)
@@ -84,6 +83,6 @@ Fantastic est of video tutorials by the ROSES program. Note that every year has 
 - Offering in [2021](https://connect.agu.org/seismology/roses/roses2021materials), and their [Github](https://github.com/roseseismo/roses2021)
   
 
-## Experts in Computing and Seismomlogy
+## Experts in Computing and Seismology
 - Cloud computing video tutorials:
     - https://www.youtube.com/watch?v=0hGoK1SdBm4: get started on AWS-EC2 (by our own Julian Schmidt!)
