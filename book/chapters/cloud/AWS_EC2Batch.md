@@ -7,7 +7,7 @@ The below steps require [setting up the AWS CLI](https://docs.aws.amazon.com/cli
 
 ## 1. Create role
 
-AWS batch requires an IAM role to be created *for running the jobs*. This can be done from the IAM webconsole.
+AWS batch requires an IAM role to be created *for running the jobs*. This can be done from the IAM web console.
 
 Create a role using the following options:
 
@@ -25,7 +25,7 @@ Once the role is created, one more permission is needed:
 - Click on **Batch**
 - Select Read / Describe Jobs
 - Click Next
-- Add a poolicy name, e.g. "Describe_Batch_Jobs"
+- Add a policy name, e.g. "Describe_Batch_Jobs"
 - Click Create Policy
 
 Finally, go to the S3 bucket where you'll be writing the results of the jobs.
@@ -82,7 +82,7 @@ Make a note of the compute environment ARN to use in the next step.
 
 ## 3. Create a Job queue
 
-Add the compute environment and a name to `job_queue.yaml` as the folling file:
+Add the compute environment and a name to `job_queue.yaml` as the following file:
 
 ```yaml
 jobQueueName: ''  # [REQUIRED] The name of the job queue.
@@ -137,7 +137,7 @@ aws batch register-job-definition --no-cli-pager --cli-input-yaml file://job_def
 
 ## 4. Submit a job
 
-We will take the example of noisepy. Update `job_cc.yaml` with the names of your `jobQueue` and `jobDefinition` created in the last steps:
+We will take the example of NoisePy. Update `job_cc.yaml` with the names of your `jobQueue` and `jobDefinition` created in the last steps:
 ```yaml
 jobName: 'noisepy-cross-correlate'
 jobQueue: ''

@@ -1,12 +1,5 @@
 # Introduction
-
-
-In this section, we will review software best practices, open science, reproducible workflows. We will also review how to use HPC resources and Cloud systems.
-
-
-:::{note}
-Draft Material
-:::
+In this section, we will review software best practices, open science, reproducible workflows. We will review how to use Cloud systems.
 
 We will discuss on how to work with various environments
 
@@ -14,14 +7,15 @@ We will discuss on how to work with various environments
 
 To work locally using python and Jupyter notebooks.
 
-⚠️ this content only concerns Linux and MacOS, please reach out to contribute to windows environments.
+:::{note}
+This content only concerns Linux and MacOS, please reach out to contribute to windows environments.
+:::
 
-We recommend using [Visual Studio Code](https://code.visualstudio.com/) for code and notebook editing, running codes and notebooks, editing github repository, interacting with GitHub. It is how we wrote this book!
+We recommend using [Visual Studio Code](https://code.visualstudio.com/) for code and notebook editing, running codes and notebooks, interacting with GitHub. It is how we wrote this book!
 
-Either through your OS or using VSCode, open a terminal. The terminal is used to pass commands to the computer. The programming language to send codes to the computer is Shell. BASH (Bourne Again SHell) is one of the implementations of Shell and is used to efficiently perform tasks. Great tutorials on how to get started with Shell are in the [Software Carpentries Lessons](https://swcarpentry.github.io/shell-novice/).
+Either through your OS or VS Code, open a terminal. The terminal is used to pass commands to the computer. The programming language to send codes to the computer is Shell. BASH (Bourne Again SHell) is one of the implementations of Shell and is used to efficiently perform tasks. Great tutorials on how to get started with Shell are in the [Software Carpentries Lessons](https://swcarpentry.github.io/shell-novice/).
 
-
-Get to know your hardware. Find out what CPU, GPU, what memory is on your local environment. One that allows to monitor the resources in real time is ``htop``. Install it on your local environment (e.g., use ``brew install htop`` on MacOSX). 
+Get to know your hardware. Find out what CPU, GPU, what memory is on your local environment. One that allows to monitor the resources in real time is ``top`` (or a more human-readable ``htop``). Install it on your local environment (e.g., use ``brew install htop`` on MacOSX). 
 
 Machine Learning research requires parallelization. Typically, CPUs (Central Processing Units) are plenty sufficient for most ML applications. They are the basics and default hardware of most computers and are particularly practical when handling large data sets for the In/Out operations. 
 
@@ -32,18 +26,16 @@ To watch how the GPU resources are used, use the following command (if installed
     watch nvidia-smi
 ```
 
-Individual CPUs can compose a **node**. Multiple **nodes** can compose a **cluster**. Clusters can be accessed locally (if you are lucky!) and most often remotely. There are three typical clusters: your local resource (research group), the institutional resource (e.g., Hyak at UW), the HPC center (e.g., Texas Advanced Computing Center), or the Cloud server (e.g., AWS, Azure. GCP). In Cloud computing, a node is an **instance**.
+Individual CPUs can compose a **node**. Multiple **nodes** can compose a **cluster**. Clusters can be accessed locally (if you are lucky!) and most often remotely. There are three typical clusters: your local resource (research group), the institutional resource (e.g., Hyak at UW), the HPC center (e.g., Texas Advanced Computing Center), or the Cloud service provider. In Cloud computing, a node is an **instance**.
 
 
 ## Cloud
 
-Cloud computing refers to a system of rather loosely connected nodes. There are many cloud providers, though 3 are on the top list: Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure Cloud (Azure). Each of these cloud providers offer a free python Hub access.
+Cloud computing refers to a system of rather loosely connected nodes. There are many cloud providers, though three are on the top list: Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure Cloud (Azure). Each of these cloud providers offer a free Python Hub access.
 
 Cloud centers are distributed around the world, to enable global fast access to computing resources. The centers are called `regions`.
 
 Usually, storing data on Clouds is the most expensive of geoscience research. One would typically find the 1) data storage/archive, then 2) choose the cloud provider. For optimal I/O performance, it is recommended to choose the `region` where the data is stored for compute.
-
-
 
 ### Google Colab
 
@@ -55,7 +47,7 @@ Here is an example of a Google Colab:
 
 ### AWS
 
-AWS is the amazon services for cloud. It is the cloud leader.  Chapter 7 details access and usage of these resources.
+AWS is the Amazon services for cloud. It is the cloud leader. Chapter 7 details access and usage of these resources.
 
 Their JupyterHub for machine learning is ran out of [Sagemaker Studio](https://aws.amazon.com/sagemaker/). The first 250 hours of use (within the first 2 months) are *free*.
 
@@ -77,6 +69,6 @@ Azure is the Microsoft cloud computer. Chapter 7 details access and usage of the
 
 The JupyterHub *free* access of Azure is called the [Planetary Computer](https://planetarycomputer.microsoft.com/).
 
-Cool [data sets](https://planetarycomputer.microsoft.com/catalog) to access directly on Azure that focus on oceans, atmosphere, surface land, demographiscs. Example below:
+Cool [data sets](https://planetarycomputer.microsoft.com/catalog) to access directly on Azure that focus on oceans, atmosphere, surface land, demographics. Example below:
 
 - [Landsat](https://planetarycomputer.microsoft.com/dataset/group/landsat)

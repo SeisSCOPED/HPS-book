@@ -105,9 +105,9 @@ This policy ensures that public reads are allowed, while only authorized users (
 
 
 
-## 5. Preparing an S3 bucket for Noisepy
+## 5. Preparing an S3 bucket for NoisePy
 
-Noisepy uses S3/Cloudstore to store the cross correlations and stacked data. For this step, it is important that your **user/role** and the **bucket** have the appropriate permissions for users to read/write into the bucket.
+NoisePy uses S3/Cloudstore to store the cross correlations and stacked data. For this step, it is important that your **user/role** and the **bucket** have the appropriate permissions for users to read/write into the bucket.
 
 In the browser, please add the following policy to the bucket:
 
@@ -138,4 +138,4 @@ Add a temporary file to make sure you have the credentials to add to the bucket
 aws s3 cp temp s3://<BUCKET-NAME>
 ```
 
-If this step works, and if your role and user account are attached to the bucket policy, the rest of the AWS noisepy tutorial should work.
+If this step works, and if your role and user account are attached to the bucket policy, the rest of the AWS NoisePy tutorial should work.
