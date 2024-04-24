@@ -1,7 +1,5 @@
 # Introduction
-In this section, we will review software best practices, open science, reproducible workflows. We will review how to use Cloud systems.
-
-We will discuss on how to work with various environments
+In this section, we will review software best practices, open science, reproducible workflows. We will also review how to use Cloud systems. 
 
 ## Local environment
 
