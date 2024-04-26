@@ -68,6 +68,7 @@ parts:
     - file: chapters/quake_catalog/intro
     - file: chapters/quake_catalog/MLworkflow_quakeflow
     - file: chapters/quake_catalog/specufex
+    - file: chapters/quake_catalog/Automated_Surface_Event_Detection
 
 - caption: ML Seismology (GeoSMART)
   chapters:
