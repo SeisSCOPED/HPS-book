@@ -21,3 +21,5 @@ Then, follow the [instructions](../cloud/AWS_101.md) To open the Jupyter noteboo
 
 Scientific motivation slides:
 [Slides](https://docs.google.com/presentation/d/1db8rT7vo8nEx8ZHyfIiOEqbIz4rheQdT8rVrc0B_BBs/edit?usp=sharing)
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSO6ACNFGwGJK-Q6kLKuyWBBA7XpGVdFuVvPUYQ8YcacqkrtcuqizypbsuB6y4q6APmFllmt8aUGnXe/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
