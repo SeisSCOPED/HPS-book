@@ -16,20 +16,20 @@ To build our website, we need specific Python packages which are managed with th
 
 1. Fork this geosmart's website repo on GitHub.
 
-1. Clone your fork locally:
+2. Clone your fork locally:
 
     ```sh
     git clone https://github.com/geo-smart/use_case_template.git
     cd book
     ```
 
-1. Create a branch to add your changes:
+3. Create a branch to add your changes:
 
     ```sh
     git checkout -b name-of-your-bugfix-or-feature
     ```
 
-1. Create and activate the "geosmart" conda environment.
+4. Create and activate the "geosmart" conda environment.
 
    __NOTE__: If you're running linux or Windows use `conda/conda-linux-64.lock.yml`
     ```sh
@@ -39,14 +39,14 @@ To build our website, we need specific Python packages which are managed with th
    __NOTE__: If you want to add packages or change the environment,
     you must follow the procedure outlined in [./conda/README.md](./conda/README.md).
 
-1. Make your desired changes and build the book locally
+4. Make your desired changes and build the book locally
 
     ```sh
     jb build book
     ```
    __NOTE__: to preview the changes open `book/build/html/index.html`
 
-1. Push your branch to GitHub when you're ready:
+5. Push your branch to GitHub when you're ready:
 
     ```sh
     git add .
@@ -54,4 +54,7 @@ To build our website, we need specific Python packages which are managed with th
     git push origin name-of-your-bugfix-or-feature
     ```
 
-1. Open a pull request through the GitHub website: https://github.com/geo-smart/use_case_template
+6. Open a pull request through the GitHub website: https://github.com/geo-smart/use_case_template
+
+__Note__
+If uploading notebooks, make sure to reset th kernels. Edit the notebooks in JSON files.
