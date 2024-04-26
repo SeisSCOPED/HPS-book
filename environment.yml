@@ -10,3 +10,4 @@ dependencies:
   - pandas
   - pip:
     - lxml_html_clean
+    - matplotlib
