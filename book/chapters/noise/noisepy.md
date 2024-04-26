@@ -18,3 +18,6 @@ Follow the [instructions](../cloud/AWS_101.md) to launch a cloud instance and in
     ```
 
 Then, follow the [instructions](../cloud/AWS_101.md) To open the Jupyter notebook/lab, them find the Public IP address.
+
+Scientific motivation slides:
+[Slides](https://docs.google.com/presentation/d/1db8rT7vo8nEx8ZHyfIiOEqbIz4rheQdT8rVrc0B_BBs/edit?usp=sharing)
