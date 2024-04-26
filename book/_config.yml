@@ -10,6 +10,8 @@ parse:
   myst_substitutions:
     hackweek: "SeisSCOPED"
     github_org_url: "https://github.com/SeisSCOPED"
+    jupyterhub_url: ""
+    slack_workspace_url: "https://seismoscoped.slack.com/archives/C04HKQYK0QM"
 
 # Information about where the book exists on the web
 repository:
