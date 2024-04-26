@@ -5,16 +5,16 @@ We will test NoisePy, a python package for ambient noise seismology.
 While the software is currently under active development, we will test its new functionality for-cross correlation on the AWS SCEDC data.
 
 
-Follow the [instructions](../cloud/AWS_101.md) to open a cloud instance and install Docker.
+Follow the [instructions](../cloud/AWS_101.md) to launch a cloud instance and install Docker.
 
-1. Pull the image. This will pull the Docker image named seis_cloud from the GitHub Container Registry, with the specific tag f041ec0.
+1. Pull the image. This will pull the Docker image named `seisscoped/noisepy` from the GitHub Container Registry.
     ```bash
    sudo docker pull ghcr.io/seisscoped/noisepy:centos7_jupyterlab
     ```
 
-2. Run the docker. This will run the seis_cloud image in interactive mode, and forward port 8888 from the container to port 8888 on the EC2 instance. The latest tag will pull the most recent version of the image.
+2. Run the docker image as container. This will launch a Jupyter Lab within the container. The command also forwards port 8888 from the container to port 8888 on the EC2 instance.
     ```bash
     sudo docker run -p 8888:8888 --rm -it ghcr.io/seisscoped/noisepy:centos7_jupyterlab
     ```
 
-Then, follow the [instructions](../cloud/AWS_101.md#access-the-jupyter-labnotebook-through-browser) To open the Jupyter notebook/lab, them find the Public IP address.
+Then, follow the [instructions](../cloud/AWS_101.md) To open the Jupyter notebook/lab, them find the Public IP address.
