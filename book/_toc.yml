@@ -55,6 +55,7 @@ parts:
       # sections:
         # - file: chapters/geosmart-seis/swc
     - file: chapters/noise/noisepy
+    - file: chapters/noise/noisepy_scedc_tutorial
     - file: chapters/noise/coiled_aws
     # - file: chapters/noise/monitoring
     # - file: chapters/noise/das
