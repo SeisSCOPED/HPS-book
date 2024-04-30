@@ -14,6 +14,8 @@ Both leverage two computing architectures: HPC and Cloud. This book provides tra
 
 This workshop will introduce participants to cloud computing, from concept and best practices to practice, for two main approaches of data mining in seismology: correlation seismology and machine learning. Participants will learn how to port their Python scripts from their laptops to the cloud, analyze their intermediate data products, and download the final data product. Participants will learn ambient noise seismology software noise and run it on cloud-hosted data sets of broadband seismometers and distributed acoustic sensing data. Participants will learn machine learning in seismology (earthquake catalog building and data discovery of various geohazards). The workshop curriculum is supported by the NSF project SCOPED.
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRfbyhdW1xvgO0QTqQsaezZ4Xg0INNqOfjxWcCN4zeZDDlPqwnnXFv6je1b3ToELTDTk5VO13rsdXdC/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 :::{note}
 URL to log-in to the AWS account for this workshop is https://806812320051.signin.aws.amazon.com/console.
 Participants must use the username of the email address used for the workshop registration and the password sent via direct message on slack.
