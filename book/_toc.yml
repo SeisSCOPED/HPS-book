@@ -9,6 +9,7 @@ parts:
       url: https://seisscoped.org
     - title: Team
       url: https://seisscoped.org/people
+    - file: chapters/events
 
 - caption: Preliminary Resources
   chapters:

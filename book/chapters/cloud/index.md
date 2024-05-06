@@ -6,14 +6,14 @@ In this section, we will review software best practices, open science, reproduci
 To work locally using python and Jupyter notebooks.
 
 :::{note}
-This content only concerns Linux and MacOS, please reach out to contribute to windows environments.
+This content only concerns Linux and macOS, please reach out to contribute to windows environments.
 :::
 
 We recommend using [Visual Studio Code](https://code.visualstudio.com/) for code and notebook editing, running codes and notebooks, interacting with GitHub. It is how we wrote this book!
 
 Either through your OS or VS Code, open a terminal. The terminal is used to pass commands to the computer. The programming language to send codes to the computer is Shell. BASH (Bourne Again SHell) is one of the implementations of Shell and is used to efficiently perform tasks. Great tutorials on how to get started with Shell are in the [Software Carpentries Lessons](https://swcarpentry.github.io/shell-novice/).
 
-Get to know your hardware. Find out what CPU, GPU, what memory is on your local environment. One that allows to monitor the resources in real time is ``top`` (or a more human-readable ``htop``). Install it on your local environment (e.g., use ``brew install htop`` on MacOSX). 
+Get to know your hardware. Find out what CPU, GPU, what memory is on your local environment. One that allows to monitor the resources in real time is ``top`` (or a more human-readable ``htop``). Install it on your local environment (e.g., use ``brew install htop`` on macOS). 
 
 Machine Learning research requires parallelization. Typically, CPUs (Central Processing Units) are plenty sufficient for most ML applications. They are the basics and default hardware of most computers and are particularly practical when handling large data sets for the In/Out operations. 
 
