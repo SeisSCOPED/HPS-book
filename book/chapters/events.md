@@ -1,4 +1,4 @@
-# Events
+# HPS Events
 
 ## SSA Pre-Conference Workshop Data Mining and Cloud 101 (2024)
 
@@ -6,10 +6,6 @@ This workshop will introduce participants to cloud computing, from concept and b
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRfbyhdW1xvgO0QTqQsaezZ4Xg0INNqOfjxWcCN4zeZDDlPqwnnXFv6je1b3ToELTDTk5VO13rsdXdC/embed?start=true&loop=false&delayms=3000" frameborder="0" width="800" height="474" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-:::{note}
-URL to log-in to the AWS account for this workshop is https://806812320051.signin.aws.amazon.com/console.
-Participants must use the username of the email address used for the workshop registration and the password sent via direct message on slack.
-:::
 
 ### Schedule
 

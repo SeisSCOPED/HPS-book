@@ -8,6 +8,7 @@
 .jupyter/
 .local/
 .viminfo
+.vscode
 
 # cookiecutter webpage things
 cookiecutter.json
