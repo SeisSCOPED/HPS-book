@@ -16,9 +16,10 @@ Follow the [instructions](../cloud/AWS_101.md) to launch a cloud instance and in
 
 2. Run the docker image as container. This will launch a Jupyter Lab within the container. The command also forwards port 8888 from the container to port 80 on the EC2 instance (default port of the http service).
     ```bash
-    sudo docker run -p 80:8888 --rm -it ghcr.io/seisscoped/noisepy:centos7_jupyterlab
+    sudo docker run -p 80:8888 --rm -it ghcr.io/seisscoped/noisepy:centos7_jupyterlab\
+        jupyter lab --no-browser --ip=0.0.0.0 --allow-root  --IdentityProvider.token=scoped
     ```
 
-Then, follow the [instructions](../cloud/AWS_101.md) To open the Jupyter notebook/lab, them find the Public IP address.
+Then, follow the [instructions](../cloud/AWS_101.md) to find the Public IP address and open the Jupyter notebook/lab with token `scoped`.
 
 
