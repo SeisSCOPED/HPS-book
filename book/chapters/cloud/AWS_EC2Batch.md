@@ -166,7 +166,7 @@ Then update the S3 bucket paths to the locations you want to use for the output 
 aws batch submit-job --no-cli-pager --cli-input-yaml file://job_cc.yaml --job-name "<your job name>"
 ```
 
-## Submit a Stacking job
+## 5. Submit a Stacking job
 
 Update `job_stack.yaml` with the names of your `jobQueue` and `jobDefinition` created in the last steps. 
 ```yaml
