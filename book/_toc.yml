@@ -44,9 +44,9 @@ parts:
   chapters:
     - file: chapters/noise/noisepy
     - file: chapters/noise/noisepy_scedc_tutorial
+    - file: chapters/noise/noisepy_plot_stacks
     - file: chapters/noise/noisepy_monitoring_demo
     - file: chapters/noise/noisepy_aws_batch
-    - file: chapters/noise/noisepy_plot_stacks
     - file: chapters/noise/noisepy_aws_coiled
     # - file: chapters/noise/monitoring
     # - file: chapters/noise/das
