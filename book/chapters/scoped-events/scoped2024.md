@@ -1,1 +1,8 @@
 # SCOPED Workshop (2024)
+
+The SCOPED workshop is happening in May 20-24, 2024 at the University of Washington. The workshop brings 50 participants & instructors in person, and provides remote access to about 100 participants. The workshop schedule is ambitious with full wavefield modeling, inversion, source characterization using source inversion and machine learning approaches. In-person participants will be running research-grade software on AWS cloud and on Frontera super computer. Remote participants will be running similar software locally, using our containerized technology.
+
+
+Check out the schedule [here](https://seisscoped.org/workshop-2024)
+
+Future Photo of the group here!
