@@ -11,8 +11,9 @@ parts:
       url: https://seisscoped.org/people
     - file: chapters/scoped-events/index
       sections: 
-        - file: chapters/scoped-events/ssa2024
         - file: chapters/scoped-events/scoped2024
+        - file: chapters/scoped-events/ssa2024
+        - file: chapters/scoped-events/hps2023
 
 - caption: Preliminary Resources
   chapters:
