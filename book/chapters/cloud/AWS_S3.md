@@ -19,11 +19,6 @@ A bucket policy in AWS S3 is a JSON-based configuration that defines rules for m
 
 AWS provides a powerful command-line interface (CLI) that allows users to interact with S3 directly from the terminal. Here are some basic commands to get you started:
 
-- **Install AWS CLI:**
-  ```bash
-  pip install awscli
-  ```
-
 - **Configure AWS CLI:**
     ```bash
     aws configure
