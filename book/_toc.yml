@@ -9,7 +9,8 @@ parts:
       url: https://seisscoped.org
     - title: Team
       url: https://seisscoped.org/people
-    - file: chapters/events
+    - sections: 
+        - file: chapters/scoped-events/ssa2024
 
 - caption: Preliminary Resources
   chapters:
@@ -19,7 +20,6 @@ parts:
         - file: chapters/preliminary/github
         - file: chapters/preliminary/jupyterhub
         - file: chapters/preliminary/git
-        # - file: preliminary/earthdata
         - file: chapters/preliminary/python
     - file: chapters/preliminary_seismo/index
 
@@ -39,10 +39,7 @@ parts:
 
 - caption: Cloud Computing
   chapters:
-    # - file: chapters/geosmart-seis/index
-      # sections:
-        # - file: chapters/geosmart-seis/swc
-    - file: chapters/cloud/index
+    - file: chapters/cloud/Introduction
     - file: chapters/cloud/AWS_101
     - file: chapters/cloud/AWS_S3
     - file: chapters/cloud/AWS_EC2Batch
