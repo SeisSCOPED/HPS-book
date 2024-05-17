@@ -1,4 +1,4 @@
-# NoisePy
+# Introduction
 
 Ambient noise seismology is a fundamental subdiscipline of seismology that extract information about the Earth structure from diffuse waves.
 

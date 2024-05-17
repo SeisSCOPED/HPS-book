@@ -1,4 +1,4 @@
-# AWS EC2 Batch
+# NoisePy tutorial: AWS Batch
 
 Here's a short tutorial on using Amazon EC2 Batch with Fargate Spot and containers to perform a job that involves writing and reading from Amazon S3:
 

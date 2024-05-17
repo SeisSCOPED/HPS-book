@@ -26,16 +26,10 @@ parts:
 
 - caption: Containers
   chapters:
-    # - file: chapters/geosmart-seis/index
-      # sections:
-        # - file: chapters/geosmart-seis/swc
     - file: chapters/containers/intro
 
 - caption: HPC
   chapters:
-    # - file: chapters/geosmart-seis/index
-      # sections:
-        # - file: chapters/geosmart-seis/swc
     - file: chapters/HPC/intro
 
 - caption: Cloud Computing
@@ -43,29 +37,22 @@ parts:
     - file: chapters/cloud/Introduction
     - file: chapters/cloud/AWS_101
     - file: chapters/cloud/AWS_S3
-    - file: chapters/cloud/AWS_EC2Batch
     - file: chapters/cloud/AWS_lambda
-    - file: chapters/cloud/coiled
 
 
 - caption: Ambient Seismic Field
   chapters:
-    # - file: chapters/geosmart-seis/index
-      # sections:
-        # - file: chapters/geosmart-seis/swc
     - file: chapters/noise/noisepy
     - file: chapters/noise/noisepy_scedc_tutorial
     - file: chapters/noise/noisepy_monitoring_demo
+    - file: chapters/noise/noisepy_aws_batch
     - file: chapters/noise/noisepy_plot_stacks
-    - file: chapters/noise/coiled_aws
+    - file: chapters/noise/noisepy_aws_coiled
     # - file: chapters/noise/monitoring
     # - file: chapters/noise/das
 
 - caption: Quake Catalog Building
   chapters:
-    # - file: chapters/geosmart-seis/index
-      # sections:
-        # - file: chapters/geosmart-seis/swc
     - file: chapters/quake_catalog/intro
     - file: chapters/quake_catalog/MLworkflow_quakeflow
     - file: chapters/quake_catalog/specufex
@@ -73,9 +60,6 @@ parts:
 
 - caption: ML Seismology (GeoSMART)
   chapters:
-    # - file: chapters/geosmart-seis/index
-      # sections:
-        # - file: chapters/geosmart-seis/swc
     - file: chapters/geosmart-seis/about
     - file: chapters/geosmart-seis/motivation
     - file: chapters/geosmart-seis/methods
@@ -97,9 +81,6 @@ parts:
 
 - caption: SCEC
   chapters:
-    # - file: chapters/geosmart-seis/index
-      # sections:
-        # - file: chapters/geosmart-seis/swc
     - file: chapters/SCEC/about
 
 # - caption: Example Notebook
