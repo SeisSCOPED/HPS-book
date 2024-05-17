@@ -12,6 +12,7 @@ parts:
     - file: chapters/scoped-events/index
       sections: 
         - file: chapters/scoped-events/ssa2024
+        - file: chapters/scoped-events/scoped2024
 
 - caption: Preliminary Resources
   chapters:
