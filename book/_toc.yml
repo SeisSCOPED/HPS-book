@@ -9,7 +9,8 @@ parts:
       url: https://seisscoped.org
     - title: Team
       url: https://seisscoped.org/people
-    - sections: 
+    - file: chapters/scoped-events/index
+      sections: 
         - file: chapters/scoped-events/ssa2024
 
 - caption: Preliminary Resources
