@@ -14,11 +14,13 @@ parts:
         - file: chapters/scoped-events/scoped2024
         - file: chapters/scoped-events/ssa2024
         - file: chapters/scoped-events/hps2023
+    - file: chapters/code_of_conduct
 
 - caption: Preliminary Resources
   chapters:
     - file: chapters/preliminary/index
       sections:
+        - file: chapters/preliminary/basic_environment
         - file: chapters/preliminary/swc
         - file: chapters/preliminary/github
         - file: chapters/preliminary/jupyterhub
