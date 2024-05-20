@@ -14,7 +14,7 @@ parts:
         - file: chapters/scoped-events/scoped2024
         - file: chapters/scoped-events/ssa2024
         - file: chapters/scoped-events/hps2023
-    - file: chapters/code_of_conduct
+    - file: chapters/scoped-events/CoC
 
 - caption: Preliminary Resources
   chapters:
