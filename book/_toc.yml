@@ -65,18 +65,19 @@ parts:
 - caption: ML Seismology (GeoSMART)
   chapters:
     - file: chapters/geosmart-seis/about
-    - file: chapters/geosmart-seis/motivation
-    - file: chapters/geosmart-seis/methods
-    - file: chapters/geosmart-seis/data
-    - file: chapters/geosmart-seis/development
-    - file: chapters/geosmart-seis/training
-    - file: chapters/geosmart-seis/evaluation
-    - file: chapters/geosmart-seis/workflow
-    - file: chapters/geosmart-seis/reproducibility
-    - file: chapters/geosmart-seis/conclusion
-    - file: chapters/geosmart-seis/todo
-    - file: chapters/geosmart-seis/questions
-    - file: chapters/geosmart-seis/troubleshooting
+    - file: chapters/geosmart-seis/ML_Classification_Workflow_for_Scoped
+    # - file: chapters/geosmart-seis/motivation
+    # - file: chapters/geosmart-seis/methods
+    # - file: chapters/geosmart-seis/data
+    # - file: chapters/geosmart-seis/development
+    # - file: chapters/geosmart-seis/training
+    # - file: chapters/geosmart-seis/evaluation
+    # - file: chapters/geosmart-seis/workflow
+    # - file: chapters/geosmart-seis/reproducibility
+    # - file: chapters/geosmart-seis/conclusion
+    # - file: chapters/geosmart-seis/todo
+    # - file: chapters/geosmart-seis/questions
+    # - file: chapters/geosmart-seis/troubleshooting
 
 
 - caption: SPECFEM
