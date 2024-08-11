@@ -5,7 +5,8 @@ The SCOPED workshop is happening in May 20-24, 2024 at the University of Washing
 
 Check out the schedule [here](https://seisscoped.org/workshop-2024)
 
-Future Photo of the group here!
+
+![2024 GROUP](../../img/scoped_group.JPG)
 
 Introduction slides:
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRdGd5F49At8RITKrLnSvHo9Ag9OR8OPfWu9P5ahGsxhU4DSqNfLt20MC43RpOrXWvnsVDenuEngOSu/embed?start=true&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
