@@ -28,20 +28,20 @@ parts:
         - file: chapters/preliminary/python
     - file: chapters/preliminary_seismo/index
 
-- caption: Containers
-  chapters:
-    - file: chapters/containers/intro
+# - caption: Containers
+#   chapters:
+#     - file: chapters/containers/intro
 
-- caption: HPC
-  chapters:
-    - file: chapters/HPC/intro
+# - caption: HPC
+#   chapters:
+#     - file: chapters/HPC/intro
 
 - caption: Cloud Computing
   chapters:
     - file: chapters/cloud/Introduction
     - file: chapters/cloud/AWS_101
     - file: chapters/cloud/AWS_S3
-    - file: chapters/cloud/AWS_lambda
+    # - file: chapters/cloud/AWS_lambda
 
 
 - caption: Ambient Seismic Field
