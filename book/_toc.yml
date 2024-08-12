@@ -39,6 +39,7 @@ parts:
 - caption: Cloud Computing
   chapters:
     - file: chapters/cloud/Introduction
+    - file: chapters/cloud/AWS_iam
     - file: chapters/cloud/AWS_101
     - file: chapters/cloud/AWS_S3
     # - file: chapters/cloud/AWS_lambda

@@ -14,8 +14,12 @@ parse:
     slack_workspace_url: "https://seismoscoped.slack.com/archives/C04HKQYK0QM"
     website_url: "https://seisscoped.org/HPS-book/intro.html"
 
+repository_provider: custom
+
+
 # Information about where the book exists on the web
 repository:
+  # url: https://github.com/SeisSCOPED/HPS-book
   url: https://seisscoped.org/HPS-book 
   provider: github
   path_to_book: book  # Optional path to your book, relative to the repository root
