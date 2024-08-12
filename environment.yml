@@ -8,6 +8,7 @@ dependencies:
   - jupytext
   - plotly
   - pandas
+  - pip
   - pip:
     - lxml_html_clean
     - matplotlib

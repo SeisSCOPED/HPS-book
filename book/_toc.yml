@@ -61,12 +61,12 @@ parts:
     - file: chapters/quake_catalog/intro
     - file: chapters/quake_catalog/MLworkflow_quakeflow
     - file: chapters/quake_catalog/specufex
-    - file: chapters/quake_catalog/Automated_Surface_Event_Detection
+    # - file: chapters/quake_catalog/Automated_Surface_Event_Detection
 
 - caption: ML Seismology (GeoSMART)
   chapters:
     - file: chapters/geosmart-seis/about
-    - file: chapters/geosmart-seis/ML_Classification_Workflow_for_Scoped
+    # - file: chapters/geosmart-seis/ML_Classification_Workflow_for_Scoped
     # - file: chapters/geosmart-seis/motivation
     # - file: chapters/geosmart-seis/methods
     # - file: chapters/geosmart-seis/data

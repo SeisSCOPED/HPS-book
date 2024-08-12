@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Popup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Your website content -->
+
+    <!-- Button to open the popup -->
+    <button id="openPopup">Take Survey</button>
+
+    <!-- The Modal -->
+    <div id="surveyModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Survey Question</h2>
+            <p>How satisfied are you with our website?</p>
+            <form id="surveyForm">
+                <label>
+                    <input type="radio" name="satisfaction" value="Very Satisfied"> Very Satisfied
+                </label><br>
+                <label>
+                    <input type="radio" name="satisfaction" value="Satisfied"> Satisfied
+                </label><br>
+                <label>
+                    <input type="radio" name="satisfaction" value="Neutral"> Neutral
+                </label><br>
+                <label>
+                    <input type="radio" name="satisfaction" value="Dissatisfied"> Dissatisfied
+                </label><br>
+                <label>
+                    <input type="radio" name="satisfaction" value="Very Dissatisfied"> Very Dissatisfied
+                </label><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
