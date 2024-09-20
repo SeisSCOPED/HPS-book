@@ -1,6 +1,6 @@
 # HPS Jupyter Book
 
-[![Deploy](https://github.com/SeisSCOPED/HPS-book/actions/workflows/deploy.yaml/badge.svg)](https://github.com/SeisSCOPED/HPS-book/actions/workflows/deploy.yaml)
+[![Deploy](https://github.com/SeisSCOPED/HPS-book/actions/workflows/publish.yml/badge.svg)](https://github.com/SeisSCOPED/HPS-book/actions/workflows/publish.yml)
 [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://SeisSCOPED/HPS-book)
 <!-- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/geo-smart/simple-template/HEAD?labpath=book%2Fchapters) -->
 <!-- [![GeoSMART Use Case](./book/img/use_case_badge.svg)](https://geo-smart.github.io/usecases) -->
