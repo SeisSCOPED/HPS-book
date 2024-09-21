@@ -3,8 +3,15 @@ Welcome to our series of tutorials where we will explore four of the main high-p
 
 * **Earthquake Forecast using CSEP (Collaboratory for the Study of Earthquake Predictability)**: This tutorial will guide you through the process of earthquake forecasting using the CSEP. We will cover how to use this tool to generate and test earthquake forecast models, providing a comprehensive understanding of the probabilities and potential impacts of future seismic events.
 
-[Presentation](https://docs.google.com/presentation/d/1IvgZ9kqZyTl0mSLyV7mOE08z-fhSJcez/edit?usp=sharing&ouid=114363206559877755268&rtpof=true&sd=true) Phil Maechling (USC), William Savran (UNR) and their video tutorial:
+[Presentation](https://docs.google.com/presentation/d/1IvgZ9kqZyTl0mSLyV7mOE08z-fhSJcez/edit?usp=sharing&ouid=114363206559877755268&rtpof=true&sd=true) Phil Maechling (USC), Jose Tonio  Bayona and their video tutorial:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eBvLCLT5JzY?si=rVHCB0C7TgHOf36E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+* **Ground Motion Simulation Research and Broandband Platform**: This tutorial demonstrates how to use the ground motion broadband platform toolkit from SCEC by Favio Silva, Phil Maechling.
+[Presentation](https://docs.google.com/presentation/d/1IvgZ9kqZyTl0mSLyV7mOE08z-fhSJcez/edit?usp=sharing&ouid=114363206559877755268&rtpof=true&sd=true) Phil Maechling (USC), Jose Tonio  Bayona and their video tutorial:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sBEJtV9CJGw?si=W_j6LpdDcyGmIcDp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 
 * **CyberShake Data Access**: CyberShake is a powerful tool that allows us to access over 70TB of simulated seismograms. In this tutorial, we will delve into how to navigate this vast amount of data, extract meaningful insights, and apply these findings to real-world earthquake scenarios.
 
