@@ -10,7 +10,7 @@ parts:
     - title: Team
       url: https://seisscoped.org/people
     - file: chapters/scoped-events/index
-      sections: 
+      sections:
         - file: chapters/scoped-events/scoped2024
         - file: chapters/scoped-events/ssa2024
         - file: chapters/scoped-events/hps2023
@@ -60,6 +60,7 @@ parts:
 - caption: Quake Catalog Building
   chapters:
     - file: chapters/quake_catalog/intro
+    - file: chapters/quake_catalog/seisbench_catalog
     - file: chapters/quake_catalog/MLworkflow_quakeflow
     - file: chapters/quake_catalog/specufex
     # - file: chapters/quake_catalog/Automated_Surface_Event_Detection
