@@ -32,17 +32,17 @@ for id, i in df.iterrows():
     username = i['Username']
     
     # create user
-    rec = os.system(f"aws iam create-user --profile workshop --user-name {username}")
+    rec = os.system(f"aws iam create-user --user-name {username}")
 
     if rec != 0:
         print(f"Error: {username}")
         continue
     
     # assign default password and request first-login reset
-    os.system(f'aws iam create-login-profile --profile workshop --user-name {username} --password "{password}" --password-reset-required')
+    os.system(f'aws iam create-login-profile --user-name {username} --password "{password}" --password-reset-required')
     
     # add user to a usergroup
-    os.system(f"aws iam add-user-to-group --profile workshop --group-name {usergroup} --user-name {username}")
+    os.system(f"aws iam add-user-to-group --group-name {usergroup} --user-name {username}")
     print(f"=====================")
 ```
 
