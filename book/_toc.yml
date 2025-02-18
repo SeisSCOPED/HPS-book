@@ -86,6 +86,11 @@ parts:
 - caption: SPECFEM
   chapters:
     - file: chapters/specfem/specfem_intro
+    - file: chapters/specfem/1_intro_specfem2D
+    - file: chapters/specfem/2_forward_simulations
+    - file: chapters/specfem/3_adjoint_simulations
+    - file: chapters/specfem/4_post_specfem3d
+    - file: chapters/specfem/5_post_seisflows
 
 - caption: SCEC
   chapters:
