@@ -13,6 +13,20 @@ If you use this book, please cite it as follows:
 ```{bibliography}
 ```
 
+## Acknowledgments
+
+The HPS book was developed as part of the Seismic COmputational Platform for
+Empowering Discovery (SCOPED) project. This material is based upon work
+supported by the U.S. National Science Foundation under the collaborative
+SCOPED awards OAC-2104052 (University of Alaska Fairbanks), OAC-2103621
+(Colorado School of Mines), OAC-2103701 (University of Washington),
+OAC-2103741 (Columbia University) and OAC-2103494 (University of Texas at
+Austin).
+
+Any opinions, findings, and conclusions or recommendations expressed in this
+material are those of the author(s) and do not necessarily reflect the views
+of the National Science Foundation.
+
 ## HPS Book contributors.
 
 We welcome contribution to this book. Because this is the draft of a textbook, we are still exploring ways to homogeneize the format of the books. We accept the following main threads of research:
